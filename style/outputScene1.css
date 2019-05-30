@@ -69,8 +69,8 @@ main .wrap {
 
 .hest img {
   width: 100%;
-  max-width: 80px;
-  height: 100%;
+  max-width: 40px;
+  margin: auto;
 }
 
 .hest .tekst {

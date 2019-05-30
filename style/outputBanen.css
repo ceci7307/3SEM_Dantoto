@@ -102,23 +102,23 @@ svg {
 }
 
 .cls-11 {
-  fill: #3fa9f5;
+  fill: #dc5f11;
 }
 
 .cls-12 {
-  fill: #ff7bac;
+  fill: #c1c1c1;
 }
 
 .cls-13 {
-  fill: #ff931e;
+  fill: #c1c1c1;
 }
 
 .cls-14 {
-  fill: #ed1c24;
+  fill: #c1c1c1;
 }
 
 .cls-15 {
-  fill: #93278f;
+  fill: #c1c1c1;
 }
 
 .countdown {
@@ -192,4 +192,8 @@ svg {
 .go button:active,
 .go button:focus {
   transform: scale(1.1);
+}
+
+#Kuglerne {
+  display: none;
 }

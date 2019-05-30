@@ -106,23 +106,23 @@ svg {
 }
 
 .cls-11 {
-  fill: #3fa9f5;
+  fill: $dantoto-primary-color;
 }
 
 .cls-12 {
-  fill: #ff7bac;
+  fill: rgb(193, 193, 193);
 }
 
 .cls-13 {
-  fill: #ff931e;
+  fill: rgb(193, 193, 193);
 }
 
 .cls-14 {
-  fill: #ed1c24;
+  fill: rgb(193, 193, 193);
 }
 
 .cls-15 {
-  fill: #93278f;
+  fill: rgb(193, 193, 193);
 }
 
 // COUNTDOWN
@@ -197,4 +197,8 @@ svg {
   button:focus {
     transform: scale(1.1);
   }
+}
+
+#Kuglerne {
+  display: none;
 }

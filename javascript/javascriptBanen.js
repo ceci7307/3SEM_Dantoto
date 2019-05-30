@@ -58,9 +58,9 @@ function runAnimation() {
   hest4.style.transform = `translate( ${pos4.x}px, ${pos4.y}px)`;
   hest5.style.transform = `translate( ${pos5.x}px, ${pos5.y}px)`;
 
-  if (currentPosition > curve5.getTotalLength()) {
+  /*   if (currentPosition > curve5.getTotalLength()) {
     redirect();
-  }
+  } */
 }
 
 function redirect() {
@@ -80,6 +80,7 @@ function count() {
 let audio;
 //AUDIO
 function play() {
+  document.querySelector("#Kuglerne").style.display = "block";
   let audio = document.querySelector(".lyd");
   audio.play();
 }

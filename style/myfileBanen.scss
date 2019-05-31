@@ -14,10 +14,29 @@ body {
   transform-origin: center;
 }
 
+.info {
+  width: 630px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  span {
+    color: $dantoto-primary-color;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
 //SVG
 svg {
   width: 100%;
   height: auto;
+  /*   position: absolute;
+  top: 5vw; */
 }
 .cls-1,
 .cls-2 {
@@ -109,20 +128,11 @@ svg {
   fill: $dantoto-primary-color;
 }
 
-.cls-12 {
-  fill: rgb(193, 193, 193);
-}
-
-.cls-13 {
-  fill: rgb(193, 193, 193);
-}
-
-.cls-14 {
-  fill: rgb(193, 193, 193);
-}
-
+.cls-12,
+.cls-13,
+.cls-14,
 .cls-15 {
-  fill: rgb(193, 193, 193);
+  fill: #414042;
 }
 
 // COUNTDOWN
@@ -135,7 +145,7 @@ svg {
   margin: auto;
   position: absolute;
   z-index: 10;
-  top: 25vw;
+  top: 30vw;
   left: 45vw;
 }
 
@@ -188,7 +198,7 @@ svg {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.2s;
   position: absolute;
-  top: 27vw;
+  top: 33vw;
   left: 48vw;
   z-index: 10;
 

@@ -1,3 +1,4 @@
+"use strict";
 window.addEventListener("DOMContentLoaded", init);
 
 let hesteTemplate = document.querySelector("#heste-template");
@@ -12,6 +13,17 @@ function init() {
     location.href = "form.html";
   }; */
 
+  document.querySelector(".next1").addEventListener("click", () => {
+    document.querySelector(".faktaboks1").style.display = "none";
+    document.querySelector(".faktaboks2").style.display = "block";
+  });
+  document.querySelector(".next2").addEventListener("click", () => {
+    document.querySelector(".faktaboks2").style.display = "none";
+    document.querySelector(".faktaboks3").style.display = "block";
+  });
+  document.querySelector(".lukbox").addEventListener("click", () => {
+    document.querySelector(".faktaboks3").style.display = "none";
+  });
   document.querySelector("#knap").addEventListener("click", () => {
     visModal();
   });

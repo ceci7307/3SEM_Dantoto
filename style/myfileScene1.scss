@@ -34,11 +34,27 @@ img {
   }
 }
 
+/* VELKOMMEN DIV */
+
+.velkommen {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  line-height: 20px;
+  text-align: center;
+  span {
+    color: $dantoto-primary-color;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
 /* VÆLG HESTE */
 
 main {
   padding: 1vw;
-  margin: auto;
+  margin-left: 20%;
   width: 90vh;
   height: auto;
   border: solid 1px black;
@@ -159,21 +175,23 @@ button:focus {
 }
 
 /* FORM */
-.button {
-  color: #ffffff;
-  background-color: $DKspil-primary-color;
-  padding: 12px 25px;
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: 0;
-  border-radius: 20px;
-  outline: 0;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s;
-  cursor: pointer;
-  a {
+form {
+  .button {
     color: #ffffff;
+    background-color: $DKspil-primary-color;
+    padding: 12px 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+    cursor: pointer;
+    a {
+      color: #ffffff;
+    }
   }
 }
 
@@ -340,4 +358,120 @@ button:focus {
   border: 1px solid;
   height: 20px;
   cursor: pointer;
+}
+
+// FAKTABOKSE
+
+.faktaboks1 {
+  position: absolute;
+  top: 15vw;
+  left: 70vw;
+
+  svg {
+    width: 100%;
+    height: auto;
+    max-width: 380px;
+  }
+  button {
+    color: #ffffff;
+    background-color: $dantoto-primary-color;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 21vw;
+    top: 6vw;
+    font-weight: bold;
+  }
+  .cls-1 {
+    fill: $dantoto-primary-color;
+  }
+
+  .cls-2 {
+    font-size: 14px;
+    fill: white;
+    font-family: OpenSans-Bold, Open Sans;
+    font-weight: 700;
+  }
+
+  .cls-3 {
+    font-size: 12px;
+    font-family: OpenSans, Open Sans;
+    font-weight: 400;
+  }
+}
+.faktaboks2 {
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  display: none;
+
+  svg {
+    width: 100%;
+    height: auto;
+    max-width: 380px;
+  }
+  button {
+    color: #ffffff;
+    background-color: $dantoto-primary-color;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 21vw;
+    top: 6vw;
+    font-weight: bold;
+  }
+  .cls-1 {
+    fill: $dantoto-primary-color;
+  }
+
+  .cls-2 {
+    font-size: 14px;
+    fill: white;
+    font-family: OpenSans-Bold, Open Sans;
+    font-weight: 700;
+  }
+
+  .cls-3 {
+    font-size: 12px;
+    font-family: OpenSans, Open Sans;
+    font-weight: 400;
+  }
+}
+.faktaboks3 {
+  position: absolute;
+  top: 10vw;
+  left: 43vw;
+  display: none;
+
+  svg {
+    width: 100%;
+    height: auto;
+    max-width: 380px;
+  }
+  button {
+    color: #ffffff;
+    background-color: $dantoto-primary-color;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 23vw;
+    top: 8vw;
+    font-weight: bold;
+  }
+  .cls-1 {
+    fill: $dantoto-primary-color;
+  }
+
+  .cls-2 {
+    font-size: 14px;
+    fill: white;
+    font-family: OpenSans-Bold, Open Sans;
+    font-weight: 700;
+  }
+
+  .cls-3 {
+    font-size: 12px;
+    font-family: OpenSans, Open Sans;
+    font-weight: 400;
+  }
 }

@@ -1,3 +1,4 @@
+"use strict";
 window.addEventListener("DOMContentLoaded", redirect);
 
 function redirect() {

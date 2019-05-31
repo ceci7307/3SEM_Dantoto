@@ -29,10 +29,27 @@ img {
   color: white;
 }
 
+/* VELKOMMEN DIV */
+.velkommen {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  line-height: 20px;
+  text-align: center;
+}
+
+.velkommen span {
+  color: #dc5f11;
+}
+
+.velkommen p {
+  font-size: 16px;
+}
+
 /* VÆLG HESTE */
 main {
   padding: 1vw;
-  margin: auto;
+  margin-left: 20%;
   width: 90vh;
   height: auto;
   border: solid 1px black;
@@ -159,7 +176,7 @@ button:focus {
 }
 
 /* FORM */
-.button {
+form .button {
   color: #ffffff;
   background-color: #feb700;
   padding: 12px 25px;
@@ -174,7 +191,7 @@ button:focus {
   cursor: pointer;
 }
 
-.button a {
+form .button a {
   color: #ffffff;
 }
 
@@ -341,4 +358,126 @@ button:focus {
   border: 1px solid;
   height: 20px;
   cursor: pointer;
+}
+
+.faktaboks1 {
+  position: absolute;
+  top: 15vw;
+  left: 70vw;
+}
+
+.faktaboks1 svg {
+  width: 100%;
+  height: auto;
+  max-width: 380px;
+}
+
+.faktaboks1 button {
+  color: #ffffff;
+  background-color: #dc5f11;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 21vw;
+  top: 6vw;
+  font-weight: bold;
+}
+
+.faktaboks1 .cls-1 {
+  fill: #dc5f11;
+}
+
+.faktaboks1 .cls-2 {
+  font-size: 14px;
+  fill: white;
+  font-family: OpenSans-Bold, Open Sans;
+  font-weight: 700;
+}
+
+.faktaboks1 .cls-3 {
+  font-size: 12px;
+  font-family: OpenSans, Open Sans;
+  font-weight: 400;
+}
+
+.faktaboks2 {
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  display: none;
+}
+
+.faktaboks2 svg {
+  width: 100%;
+  height: auto;
+  max-width: 380px;
+}
+
+.faktaboks2 button {
+  color: #ffffff;
+  background-color: #dc5f11;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 21vw;
+  top: 6vw;
+  font-weight: bold;
+}
+
+.faktaboks2 .cls-1 {
+  fill: #dc5f11;
+}
+
+.faktaboks2 .cls-2 {
+  font-size: 14px;
+  fill: white;
+  font-family: OpenSans-Bold, Open Sans;
+  font-weight: 700;
+}
+
+.faktaboks2 .cls-3 {
+  font-size: 12px;
+  font-family: OpenSans, Open Sans;
+  font-weight: 400;
+}
+
+.faktaboks3 {
+  position: absolute;
+  top: 10vw;
+  left: 43vw;
+  display: none;
+}
+
+.faktaboks3 svg {
+  width: 100%;
+  height: auto;
+  max-width: 380px;
+}
+
+.faktaboks3 button {
+  color: #ffffff;
+  background-color: #dc5f11;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 23vw;
+  top: 8vw;
+  font-weight: bold;
+}
+
+.faktaboks3 .cls-1 {
+  fill: #dc5f11;
+}
+
+.faktaboks3 .cls-2 {
+  font-size: 14px;
+  fill: white;
+  font-family: OpenSans-Bold, Open Sans;
+  font-weight: 700;
+}
+
+.faktaboks3 .cls-3 {
+  font-size: 12px;
+  font-family: OpenSans, Open Sans;
+  font-weight: 400;
 }

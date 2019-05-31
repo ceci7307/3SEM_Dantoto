@@ -10,9 +10,31 @@ body {
   transform-origin: center;
 }
 
+.info {
+  width: 630px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.info span {
+  color: #dc5f11;
+  font-weight: bold;
+}
+
+.info h1 {
+  font-size: 18px;
+}
+
+.info p {
+  font-size: 14px;
+}
+
 svg {
   width: 100%;
   height: auto;
+  /*   position: absolute;
+  top: 5vw; */
 }
 
 .cls-1,
@@ -105,20 +127,11 @@ svg {
   fill: #dc5f11;
 }
 
-.cls-12 {
-  fill: #c1c1c1;
-}
-
-.cls-13 {
-  fill: #c1c1c1;
-}
-
-.cls-14 {
-  fill: #c1c1c1;
-}
-
+.cls-12,
+.cls-13,
+.cls-14,
 .cls-15 {
-  fill: #c1c1c1;
+  fill: #414042;
 }
 
 .countdown {
@@ -130,7 +143,7 @@ svg {
   margin: auto;
   position: absolute;
   z-index: 10;
-  top: 25vw;
+  top: 30vw;
   left: 45vw;
 }
 
@@ -183,7 +196,7 @@ svg {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.2s;
   position: absolute;
-  top: 27vw;
+  top: 33vw;
   left: 48vw;
   z-index: 10;
 }

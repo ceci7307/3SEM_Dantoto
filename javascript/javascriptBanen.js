@@ -1,7 +1,18 @@
+"use strict";
 window.addEventListener("DOMContentLoaded", init);
 
 let currentPosition = 0;
-let speed = Math.random() * 5 + 2;
+let speed = Math.random() * 5 + 1;
+let hest1;
+let curve1;
+let hest2;
+let curve2;
+let hest3;
+let curve3;
+let hest4;
+let curve4;
+let hest5;
+let curve5;
 
 function init() {
   hest1 = document.querySelector("#hest1");
@@ -58,9 +69,9 @@ function runAnimation() {
   hest4.style.transform = `translate( ${pos4.x}px, ${pos4.y}px)`;
   hest5.style.transform = `translate( ${pos5.x}px, ${pos5.y}px)`;
 
-  /*   if (currentPosition > curve5.getTotalLength()) {
+  if (currentPosition > curve5.getTotalLength()) {
     redirect();
-  } */
+  }
 }
 
 function redirect() {

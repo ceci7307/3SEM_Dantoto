@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="127.34mm" height="37.47mm" viewBox="0 0 360.97 106.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e0a51f;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        fill: #1d1d1b;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 12px;
+        font-family: OpenSans, Open Sans;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+  <title>infoboks1</title>
+  <polygon class="cls-1" points="49.09 3.65 49.09 23.81 3.14 42.38 49.09 79.99 49.09 103.13 357.3 103.13 357.3 3.65 49.09 3.65"/>
+  <text class="cls-2" transform="translate(74.9 29.48)"><tspan xml:space="preserve"> Her ser du din nuværende saldo.</tspan><tspan class="cls-3"><tspan x="0" y="31.2">Når du har valgt hvor mange penge du vil oddse </tspan><tspan x="0" y="45.6">og på hvilken hest, kan du se den gevinst du har </tspan><tspan x="0" y="60">mulighed for at vinde.</tspan></tspan></text>
+</svg>
